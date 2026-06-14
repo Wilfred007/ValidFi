@@ -1,0 +1,11 @@
+/Users/inhousecodes/Documents/ValidFi/target/debug/deps/socket2-414af5bb89499012.d: /Users/inhousecodes/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/socket2-0.6.4/src/lib.rs /Users/inhousecodes/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/socket2-0.6.4/src/sockaddr.rs /Users/inhousecodes/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/socket2-0.6.4/src/socket.rs /Users/inhousecodes/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/socket2-0.6.4/src/sockref.rs /Users/inhousecodes/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/socket2-0.6.4/src/sys/unix.rs
+
+/Users/inhousecodes/Documents/ValidFi/target/debug/deps/libsocket2-414af5bb89499012.rlib: /Users/inhousecodes/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/socket2-0.6.4/src/lib.rs /Users/inhousecodes/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/socket2-0.6.4/src/sockaddr.rs /Users/inhousecodes/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/socket2-0.6.4/src/socket.rs /Users/inhousecodes/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/socket2-0.6.4/src/sockref.rs /Users/inhousecodes/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/socket2-0.6.4/src/sys/unix.rs
+
+/Users/inhousecodes/Documents/ValidFi/target/debug/deps/libsocket2-414af5bb89499012.rmeta: /Users/inhousecodes/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/socket2-0.6.4/src/lib.rs /Users/inhousecodes/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/socket2-0.6.4/src/sockaddr.rs /Users/inhousecodes/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/socket2-0.6.4/src/socket.rs /Users/inhousecodes/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/socket2-0.6.4/src/sockref.rs /Users/inhousecodes/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/socket2-0.6.4/src/sys/unix.rs
+
+/Users/inhousecodes/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/socket2-0.6.4/src/lib.rs:
+/Users/inhousecodes/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/socket2-0.6.4/src/sockaddr.rs:
+/Users/inhousecodes/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/socket2-0.6.4/src/socket.rs:
+/Users/inhousecodes/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/socket2-0.6.4/src/sockref.rs:
+/Users/inhousecodes/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/socket2-0.6.4/src/sys/unix.rs:

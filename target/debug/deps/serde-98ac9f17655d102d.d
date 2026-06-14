@@ -1,0 +1,14 @@
+/Users/inhousecodes/Documents/ValidFi/target/debug/deps/serde-98ac9f17655d102d.d: /Users/inhousecodes/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs /Users/inhousecodes/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/integer128.rs /Users/inhousecodes/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/mod.rs /Users/inhousecodes/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/de.rs /Users/inhousecodes/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/ser.rs /Users/inhousecodes/Documents/ValidFi/target/debug/build/serde-1d84d94038952bdb/out/private.rs
+
+/Users/inhousecodes/Documents/ValidFi/target/debug/deps/libserde-98ac9f17655d102d.rlib: /Users/inhousecodes/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs /Users/inhousecodes/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/integer128.rs /Users/inhousecodes/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/mod.rs /Users/inhousecodes/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/de.rs /Users/inhousecodes/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/ser.rs /Users/inhousecodes/Documents/ValidFi/target/debug/build/serde-1d84d94038952bdb/out/private.rs
+
+/Users/inhousecodes/Documents/ValidFi/target/debug/deps/libserde-98ac9f17655d102d.rmeta: /Users/inhousecodes/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs /Users/inhousecodes/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/integer128.rs /Users/inhousecodes/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/mod.rs /Users/inhousecodes/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/de.rs /Users/inhousecodes/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/ser.rs /Users/inhousecodes/Documents/ValidFi/target/debug/build/serde-1d84d94038952bdb/out/private.rs
+
+/Users/inhousecodes/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs:
+/Users/inhousecodes/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/integer128.rs:
+/Users/inhousecodes/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/mod.rs:
+/Users/inhousecodes/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/de.rs:
+/Users/inhousecodes/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/ser.rs:
+/Users/inhousecodes/Documents/ValidFi/target/debug/build/serde-1d84d94038952bdb/out/private.rs:
+
+# env-dep:OUT_DIR=/Users/inhousecodes/Documents/ValidFi/target/debug/build/serde-1d84d94038952bdb/out

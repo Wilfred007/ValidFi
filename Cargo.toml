@@ -1,0 +1,12 @@
+[workspace]
+resolver = "2"
+members = [
+    "backend",
+    "contracts/issuer-registry",
+    "contracts/credential-registry",
+    "contracts/revocation-registry",
+    "contracts/health-passport-nft"
+]
+
+[profile.release]
+overflow-checks = true

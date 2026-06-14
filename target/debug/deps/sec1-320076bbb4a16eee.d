@@ -1,0 +1,11 @@
+/Users/inhousecodes/Documents/ValidFi/target/debug/deps/sec1-320076bbb4a16eee.d: /Users/inhousecodes/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sec1-0.7.3/src/lib.rs /Users/inhousecodes/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sec1-0.7.3/src/point.rs /Users/inhousecodes/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sec1-0.7.3/src/error.rs /Users/inhousecodes/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sec1-0.7.3/src/parameters.rs /Users/inhousecodes/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sec1-0.7.3/src/private_key.rs /Users/inhousecodes/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sec1-0.7.3/src/traits.rs /Users/inhousecodes/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sec1-0.7.3/src/../README.md
+
+/Users/inhousecodes/Documents/ValidFi/target/debug/deps/libsec1-320076bbb4a16eee.rmeta: /Users/inhousecodes/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sec1-0.7.3/src/lib.rs /Users/inhousecodes/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sec1-0.7.3/src/point.rs /Users/inhousecodes/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sec1-0.7.3/src/error.rs /Users/inhousecodes/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sec1-0.7.3/src/parameters.rs /Users/inhousecodes/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sec1-0.7.3/src/private_key.rs /Users/inhousecodes/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sec1-0.7.3/src/traits.rs /Users/inhousecodes/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sec1-0.7.3/src/../README.md
+
+/Users/inhousecodes/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sec1-0.7.3/src/lib.rs:
+/Users/inhousecodes/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sec1-0.7.3/src/point.rs:
+/Users/inhousecodes/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sec1-0.7.3/src/error.rs:
+/Users/inhousecodes/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sec1-0.7.3/src/parameters.rs:
+/Users/inhousecodes/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sec1-0.7.3/src/private_key.rs:
+/Users/inhousecodes/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sec1-0.7.3/src/traits.rs:
+/Users/inhousecodes/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sec1-0.7.3/src/../README.md:
