@@ -292,7 +292,7 @@ export default function Home() {
       const qrData = {
         proof_hash: proof.proof_bytes,
         credential_id: cred.id,
-        verification_url: `http://localhost:8080/api/proofs/verify`,
+        verification_url: `${window.location.origin}/api/proofs/verify`,
         public_inputs: proof.public_inputs
       };
       setProofQrValue(JSON.stringify(qrData));
