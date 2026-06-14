@@ -1,0 +1,16 @@
+# Environment files - contain API keys/secrets, never commit
+.env
+.env.*
+!.env.example
+
+# Rust
+/target
+**/target
+
+# Node
+node_modules
+.next
+out
+
+# OS
+.DS_Store
