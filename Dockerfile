@@ -63,8 +63,9 @@ COPY circuits /app/circuits
 
 # Set working directory and circuits path
 WORKDIR /app
+RUN mkdir -p /app/data
 ENV CIRCUITS_DIR=/app/circuits
-ENV DATABASE_PATH=/data/validfi.db
+ENV DATABASE_PATH=/app/data/validfi.db
 
 # Railway injects PORT automatically
 EXPOSE 8080
