@@ -170,7 +170,7 @@ export default function Home() {
 
   useEffect(() => {
     if (walletAddress) {
-      syncData();
+      syncCredentials();
     }
   }, [walletAddress, userRole, activeTab]);
 
@@ -180,33 +180,42 @@ export default function Home() {
     }
   }, [chatMessages, aiTyping]);
 
+  // Load credentials relevant to the page currently being viewed.
+  // The Authority Portal shows credentials *issued by* this wallet;
+  // every other page shows credentials *held by* this wallet as a patient.
+  const syncCredentials = async () => {
+    if (!walletAddress) return;
+    try {
+      setLoading(true);
+      const creds = activeTab === "issuer"
+        ? await api.getIssuerCredentials(walletAddress)
+        : await api.getPatientCredentials(walletAddress);
+      setCredentials(creds);
+    } catch (e) {
+      console.error("Sync error:", e);
+    } finally {
+      setLoading(false);
+    }
+  };
+
   const syncData = async () => {
     try {
       setLoading(true);
 
-      // Load credentials relevant to the page currently being viewed.
-      // The Authority Portal shows credentials *issued by* this wallet;
-      // every other page shows credentials *held by* this wallet as a patient.
-      if (walletAddress) {
-        if (activeTab === "issuer") {
-          const creds = await api.getIssuerCredentials(walletAddress);
-          setCredentials(creds);
-        } else {
-          const creds = await api.getPatientCredentials(walletAddress);
-          setCredentials(creds);
-        }
-      }
+      const [creds, iss, logs, all] = await Promise.all([
+        walletAddress
+          ? (activeTab === "issuer"
+              ? api.getIssuerCredentials(walletAddress)
+              : api.getPatientCredentials(walletAddress))
+          : Promise.resolve(null),
+        api.getIssuers(),
+        api.getHistory(),
+        api.getAllCredentials(),
+      ]);
 
-      // Load registered issuers
-      const iss = await api.getIssuers();
+      if (creds) setCredentials(creds);
       setIssuers(iss);
-
-      // Load verification logs
-      const logs = await api.getHistory();
       setHistory(logs);
-
-      // Load system-wide credentials for the Dashboard tab
-      const all = await api.getAllCredentials();
       setAllCredentials(all);
     } catch (e) {
       console.error("Sync error:", e);
