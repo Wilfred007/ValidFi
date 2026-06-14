@@ -1,5 +1,4 @@
-# ─── Stage 1: Builder ───────────────────────────────────────────────────────
-FROM rust:1.78-slim-bookworm AS builder
+FROM rust:1.87-slim-bookworm AS builder
 
 # System deps for rusqlite (bundled) and reqwest (TLS)
 RUN apt-get update && apt-get install -y \
