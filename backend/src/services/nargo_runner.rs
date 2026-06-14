@@ -153,7 +153,8 @@ impl NargoRunner {
 fn which_nargo() -> PathBuf {
     // Common locations where noirup installs nargo
     let candidates = vec![
-        PathBuf::from("/Users/inhousecodes/.nargo/bin/nargo"),
+        PathBuf::from("/root/.nargo/bin/nargo"),       // Railway/Docker (Linux)
+        PathBuf::from("/Users/inhousecodes/.nargo/bin/nargo"), // local macOS dev
         PathBuf::from("/usr/local/bin/nargo"),
         PathBuf::from("/opt/homebrew/bin/nargo"),
         PathBuf::from("nargo"), // from PATH
@@ -171,5 +172,5 @@ fn which_nargo() -> PathBuf {
     }
 
     // Default — will fail gracefully if not found
-    PathBuf::from("/Users/inhousecodes/.nargo/bin/nargo")
+    PathBuf::from("nargo")
 }
