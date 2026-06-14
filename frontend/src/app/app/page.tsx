@@ -41,7 +41,7 @@ import { invokeAndConfirm, simulateRead, CONTRACTS, scBytes32, scAddress, scU32,
 import { toast } from "sonner";
 import { Toaster } from "../../components/ui/sonner";
 
-const DEFAULT_LOADING_MESSAGE = "Executing Stellar Transaction & ZK Constraints...";
+const DEFAULT_LOADING_MESSAGE = "Loading...";
 
 const generateCredId = () => "CRED-" + Math.floor(100000 + Math.random() * 900000);
 
@@ -881,7 +881,7 @@ export default function Home() {
         {loading && (
           <div style={{ position: 'fixed', top: 0, left: 0, right: 0, bottom: 0, background: 'rgba(0,0,0,0.6)', zIndex: 999, display: 'flex', alignItems: 'center', justifyContent: 'center', backdropFilter: 'blur(4px)' }}>
             <div className="glass-panel" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '1rem' }}>
-              <Loader2 className="pulse-glow" size={32} style={{ animation: 'spin 2s linear infinite', color: 'var(--color-primary)' }} />
+              <Loader2 size={32} style={{ animation: 'spin 1s linear infinite', color: 'var(--color-primary)' }} />
               <p>{loadingMessage}</p>
             </div>
           </div>
